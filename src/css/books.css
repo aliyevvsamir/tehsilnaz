@@ -29,7 +29,8 @@
 }
 
 .books-library a:hover {
-    color: rgb(12, 226, 23)
+    color:crimson;
+    transition: 0.3s all;
 }
 
 .books-library .img {
@@ -69,11 +70,6 @@
         margin-left: 14px;
     }
 
-    .books-library a:hover {
-        opacity: .4;
-        transition: 0.5s;
-    }
-
     .books-library .img {
         margin-left: -8px;
     }
@@ -111,12 +107,6 @@
         color: #FFFFFF;
         margin-left: 14px;
     }
-
-    .books-library a:hover {
-        opacity: .4;
-        transition: 0.5s;
-    }
-
     .books-library .img {
         margin-left: -8px;
     }
@@ -154,12 +144,6 @@
         color: #FFFFFF;
         margin-left: 14px;
     }
-
-    .books-library a:hover {
-        opacity: .4;
-        transition: 0.5s;
-    }
-
     .books-library .img {
         margin-left: -8px;
     }
@@ -199,11 +183,6 @@
 
     .books {
         padding-left: 8px;
-    }
-
-    .books-library a:hover {
-        opacity: .4;
-        transition: 0.5s;
     }
 
     .books-library .img {
@@ -249,11 +228,6 @@
         margin-left: 14px;
     }
 
-    .books-library a:hover {
-        opacity: .4;
-        transition: 0.5s;
-    }
-
     .books-library .img {
         margin-left: -8px;
     }
@@ -295,11 +269,6 @@
         line-height: 18px;
         color: #FFFFFF;
         margin-left: 14px;
-    }
-
-    .books-library a:hover {
-        opacity: .4;
-        transition: 0.5s;
     }
 
     .books-library .img {
@@ -345,11 +314,6 @@
         margin-left: 14px;
     }
 
-    .books-library a:hover {
-        opacity: .4;
-        transition: 0.5s;
-    }
-
     .books-library .img {
         margin-left: -8px;
         padding-bottom: 10px;
@@ -393,11 +357,6 @@
         line-height: 14px;
         color: #FFFFFF;
         margin-left: 14px;
-    }
-
-    .books-library a:hover {
-        opacity: .4;
-        transition: 0.5s;
     }
 
     .books-library .img {
