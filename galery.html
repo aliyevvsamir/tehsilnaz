@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/img/gerb.png" type="image/x-icon">
+    <title>Foto galereya</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" 
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" 
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />     -->
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/header.css">
+    <link rel="stylesheet" href="./src/css/nav.css">
+    <link rel="stylesheet" href="./src/css/info.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^</button>
+    <header>
+        <div class="img">
+            <a href=""><img src="./src/img/tehsil1.png" alt=""></a>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/index.html"><i
+                                class="fa-solid fa-house"></i></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Nazirlik
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="info.html">Ümumi məlumat</a></li>
+                            <li><a class="dropdown-item" href="info.html">Əsasnamə</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="info.html">Kollegiya</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Qanunvericilik
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="qanun.html">Qanunlar</a></li>
+                            <li><a class="dropdown-item" href="qanun.html">Fərmanlar</a></li>
+                            <li><a class="dropdown-item" href="qanun.html">Sərəncamlar</a></li>
+                            <li><a class="dropdown-item" href="qanun.html">Qərarlar</a></li>
+                            <li><a class="dropdown-item" href="qanun.html">Əsasnamələr</a></li>
+
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="qanun.html">Qaydalar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Təhsil Müəssisələri
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Naxçıvan ŞTŞ</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Ümumtəhsil müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="outOfSchool-NC.html">Məktəbdənkənar müəssisələr</a></li>
+
+                                    </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Şərur RTŞ</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Ümumtəhsil müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="outOfSchool-NC.html">Məktəbdənkənar müəssisələr</a></li>
+                                    </ul></li>
+                            <li><a class="dropdown-item" href="#">Babək RTŞ</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Ümumtəhsil müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="outOfSchool-NC.html">Məktəbdənkənar müəssisələr</a></li>
+                                    </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Ordubad RTŞ</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Ümumtəhsil müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="outOfSchool-NC.html">Məktəbdənkənar müəssisələr</a></li>
+                                    </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Culfa RTŞ</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Ümumtəhsil müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="outOfSchool-NC.html">Məktəbdənkənar müəssisələr</a></li>
+                                    </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Kəngərli RTŞ</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Ümumtəhsil müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="outOfSchool-NC.html">Məktəbdənkənar müəssisələr</a></li>
+                                    </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Şahbuz RTŞ</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Ümumtəhsil müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="outOfSchool-NC.html">Məktəbdənkənar müəssisələr</a></li>
+                                    </ul>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sədərək RTŞ</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Ümumtəhsil müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="outOfSchool-NC.html">Məktəbdənkənar müəssisələr</a></li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Nazirliyə tabelər</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Nazirliyə tabe məktəbdənkənər müəssisələr</a></li>
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Nazirliyə tabe ümumtəhsil müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Nazirliyə tabe orta ixtisas müəssisələri</a></li>
+                                    <li><a class="dropdown-item" href="edu_instutions.html">Peşə məktəbləri</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Mətbuat xidməti
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="news.html">Xəbərlər</a></li>
+                            <li><a class="dropdown-item" href="galery.html">Foto galereya</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Video materiallar</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="videoGalery.html">Tədbirlər</a></li>
+                                    <li><a class="dropdown-item" href="videoGalery.html">Müasir məktəblərimiz</a></li>
+                                    </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            E-xidmət
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Sənəd qəbulu</a>
+                                <ul class="submenu dropdown-menu">
+                                    <li><a class="dropdown-item" href="http://tehsil.nmr.az/liseyler-form/index.php" target="_blank">Liseylər üçün müraciət</a></li>
+                                    <li><a class="dropdown-item" href="http://tehsil.nmr.az/peseliseyi-form/index.php" target="_blank">Peşə məktəblərinə müraciət</a></li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="/studentsSuccess.html">Şagird nailiyyətləri</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            E-təhsil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="distant.html">İnteraktiv təhsil</a></li>
+                            <li><a class="dropdown-item" href="distant.html">Elektron təhsil portalı</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Video dərsliklər</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Təhsil xəritələri
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Naxçıvan MR-nın Təhsil müəssisələri</a></li>
+                            <li><a class="dropdown-item" href="#">Naxçıvan MR-nın ali təhsil müəssisələri</a></li>
+                            <li><a class="dropdown-item" href="#">Naxçıvan MR-nın orta ixtisas təhsil müəssisələri</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Naxçıvan şəhərinin ümumtəhsil məktəbləri</a></li>
+                            <li><a class="dropdown-item" href="#">Şərur rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a class="dropdown-item" href="#">Babək rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a class="dropdown-item" href="#">Ordubad rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a class="dropdown-item" href="#">Culfa rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a class="dropdown-item" href="#">Kəngərli rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a class="dropdown-item" href="#">Şahbuz rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a class="dropdown-item" href="#">Sədərək rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a class="dropdown-item" href="#">Naxçıvan MR-nın peşə təhsil müəssisələri</a></li>
+                            <li><a class="dropdown-item" href="#">Naxçıvan MR-nın məktəbdənkənar təhsil müəssisələri</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Naxçıvan MR-nın uşaq musiqi, incəsənət və sənətkarlıq
+                                    məktəbləri</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Naxçıvan MR-nın uşaq bağçaları</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Əlaqə
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Məktub yazmaq</a></li>
+                            <li><a class="dropdown-item" href="#">Əlaqə vasitələri</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Qəbul günləri</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <i class="fa-solid fa-magnifying-glass search-button"></i>
+                            <i class="fa-solid fa-xmark close-button"></i>
+                        </a>
+                    </li>
+                </ul>
+                <form class="search-block" role="search">
+                    <input class="form-control me-2 search-input" type="search" placeholder="Axtar.."
+                        aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main class="galery-main">
+        <div class="container text-center">
+            <div class="row galery-content">
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-1.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-2.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-3.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-4.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-1.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-2.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-3.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-4.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-1.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-2.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-3.png" alt="">
+                </div>
+                <div class="col">
+                    <img class="galery-image" src="./src/img/news-4.png" alt="">
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-header-1">
+                        <img src="./src/logo/footer-l.png" />
+                        <ul>
+                            <h1>Nazirlik</h1>
+                            <li><a href="">Ümumi məlumat</a></li>
+                            <li><a href="">Əsasnamə</a></li>
+                            <li><a href="">Kollegiya</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-header-1 e-func">
+                        <img src="./src/logo/footer-l.png" />
+                        <ul>
+                            <h1>E-xidmətlər</h1>
+                            <li><a href="">Sənəd qəbulu</a></li>
+                            <li><a href="">Şagird nailiyyətləri</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-header-1 e-edu">
+                        <img src="./src/logo/footer-l.png" />
+                        <ul>
+                            <h1>E-təhsil</h1>
+                            <li><a href="">İnteraktiv təhsil</a></li>
+                            <li><a href="">Elektron təhsil portalı</a></li>
+                            <li><a href="">Video dərsliklər</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-header-1">
+                        <img src="./src/logo/footer-l.png" />
+                        <ul>
+                            <h1>Qanunvericilik</h1>
+                            <li><a href="">Qanunlar</a></li>
+                            <li><a href="">Fərmanlar</a></li>
+                            <li><a href="">Sərəncamlar</a></li>
+                            <li><a href="">Qərarlar</a></li>
+                            <li><a href="">Əsasnamələr</a></li>
+                            <li><a href="">Qaydalar</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-header-1 contact">
+                        <img src="./src/logo/footer-l.png" />
+                        <ul>
+                            <h1>Əlaqə</h1>
+                            <li><a href="">Məktub yazmaq</a></li>
+                            <li><a href="">Əlaqə vasitələri</a></li>
+                            <li><a href="">Qəbul günləri</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6">
+                    <div class="footer-header-1 societies">
+                        <img src="./src/logo/footer-l.png" />
+                        <ul>
+                            <h1>Təhsil Müəssisələri</h1>
+                            <li><a href="">Naxçıvan ŞTŞ</a></li>
+                            <li><a href="">Şərur RTŞ</a></li>
+                            <li><a href="">Babək RTŞ</a></li>
+                            <li><a href="">Ordubad RTŞ</a></li>
+                            <li><a href="">Culfa RTŞ</a></li>
+                            <li><a href="">Kəngərli RTŞ</a></li>
+                            <li><a href="">Şahbuz RTŞ</a></li>
+                            <li><a href="">Sədərək RTŞ</a></li>
+                            <li><a href="">Nazirliyə tabelər</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-header-1 info">
+                        <img src="./src/logo/footer-l.png" />
+                        <ul>
+                            <h1>Mətbuat xidməti</h1>
+                            <li><a href="">Xəbərlər</a></li>
+                            <li><a href="">Foto galereya</a></li>
+                            <li><a href="">Video materiallar</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 map">
+                    <div class="footer-header-1 edu-map">
+                        <img src="./src/logo/footer-l.png" />
+                        <ul>
+                            <h1>Təhsil xəritələri</h1>
+                            <li><a href="">Naxçıvan MR-nın Təhsil müəssisələri</a></li>
+                            <li><a href="">Naxçıvan MR-nın ali təhsil müəssisələri</a></li>
+                            <li><a href="">Naxçıvan MR-nın orta ixtisas təhsil müəssisələri</a></li>
+                            <li><a href="">Naxçıvan şəhərinin ümumtəhsil məktəbləri</a></li>
+                            <li><a href="">Şərur rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a href="">Babək rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a href="">Ordubad rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a href="">Culfa rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a href="">Kəngərli rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a href="">Şahbuz rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a href="">Sədərək rayonunun ümumtəhsil məktəbləri</a></li>
+                            <li><a href="">Naxçıvan MR-nın peşə təhsil müəssisələri</a></li>
+                            <li><a href="">Naxçıvan MR-nın məktəbdənkənar təhsil müəssisələri</a></li>
+                            <li><a href="">Naxçıvan MR-nın uşaq musiqi, incəsənət və sənətkarlıq məktəbləri</a></li>
+                            <li><a href="">Naxçıvan MR-nın uşaq bağçaları</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 numbers">
+                    <div class="local-time">
+                        <p id="time">15 avqust 2022, 12:09</p>
+                    </div>
+                    <div class="statics">
+                        <p>Saytın statistikası</p>
+                        <div class="stcs-total">
+                            <p>1200923</p>
+                        </div>
+                        <table class="table table-borderless">
+                            <tbody>
+                                <tr>
+                                    <td colspan="4">Bu gün</td>
+                                    <td>1125</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">Dünən</td>
+                                    <td>1537</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">Bu həftə</td>
+                                    <td>4235</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">Bu ay</td>
+                                    <td>8150</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="4">Ümumi</td>
+                                    <td>1200923</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="social-media">
+                        <a href="#"><img src="./src/logo/fb-icon.png" alt=""></a>
+                        <a href="#"><img src="./src/logo/ins-icon.png" alt=""></a>
+                        <a href="#"><img src="./src/logo/tube-icon.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright © 2022. Naxçıvan Muxtar Respublikası Rabitə və Yeni Texnologiyalar Nazirliyi</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./src/index.js"></script>
+</body>
+
+</html>

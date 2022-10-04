@@ -1,0 +1,679 @@
+footer{
+    background-image: url("../img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    width: 100%;
+}
+
+footer .row{
+    padding-top: 30px;
+}
+.row .col-lg-2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-lg-2 img{
+    width: 20px; 
+    height:20px;
+    margin-top: 5px;
+}
+.col-lg-2 .footer-header-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.footer-header-1 li{
+    text-align: left;
+}
+.footer-header-1 a:hover{
+    color: rgb(160, 233, 182);
+    text-decoration: underline;
+}
+.footer-header-1 h1{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    text-align: left;
+}
+.footer-header-1 ul li{
+    margin: 6px 0;
+    
+}
+.footer-header-1 a{
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.col-lg-2 .contact{
+    padding-top: 70px;
+}
+.col-lg-2 .societies{
+    margin-left: 10px;
+    margin-bottom: 45px;
+}
+.societies h1{
+    width: 170px;
+}
+.col-lg-2 .info{
+    margin-left: 10px;
+}
+.col-lg-2 .info h1{
+    width: 160px;
+
+}
+.col-lg-4 img{
+    width: 20px; 
+    height:20px;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.row .map{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-lg-4 .footer-header-1{
+    display: flex;
+    justify-content: center;
+    margin:0 0 53px 0;
+}
+footer .numbers{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    margin: 0 auto;
+}
+footer .local-time{
+    margin-bottom: 30px;
+}
+
+.statics p{
+    width: 195px;
+    margin:0 auto 3px auto;
+    text-align: center;
+    
+}
+.statics .stcs-total{
+    margin-top: 5px;
+    height: 40px;
+    background-image: url("../logo/stcs-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding-top: 8px;
+}
+.stcs-total p{
+   text-align: center;
+   color: #89a1e4;
+   font-family: 'Times New Roman';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 28px;
+}
+.statics td{
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+.numbers .social-media{
+    margin-top: 8px;
+    height: 40px;
+    background-image: url("../logo/stcs-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-media a{
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+}
+.social-media a:hover{
+    transform: scale(1.1);
+    transition: all .25s ease;
+}
+.footer-bottom{
+    height: 40px;
+    background-color: #075171;
+    padding-top: 12px;
+}
+.footer-bottom p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-align: center;
+}
+@media screen and (min-width: 1200.1px) and (max-width: 1440px) {
+    footer{
+        background-image: url("../img/footer-bg.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        width: 100%;
+    }
+    
+    footer .row{
+        padding-top: 30px;
+    }
+    .row .col-lg-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-lg-2 img{
+        width: 20px; 
+        height:20px;
+        margin-top: 5px;
+    }
+    .col-lg-2 .footer-header-1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .footer-header-1 li{
+        text-align: left;
+    }
+    .footer-header-1 a:hover{
+        color: rgb(160, 233, 182);
+        text-decoration: underline;
+    }
+    .footer-header-1 h1{
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+        margin-bottom: 8px;
+        text-align: left;
+    }
+    .footer-header-1 ul li{
+        margin: 6px 0;
+        
+    }
+    .footer-header-1 a{
+        text-decoration: none;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .col-lg-2 .contact{
+        padding-top: 70px;
+    }
+    .col-lg-2 .societies{
+        margin-left: 10px;
+        margin-bottom: 45px;
+    }
+    .societies h1{
+        width: 170px;
+    
+    }
+    .col-lg-2 .info{
+        margin-left: 10px;
+    }
+    .col-lg-2 .info h1{
+        width: 160px;
+    
+    }
+    .col-lg-4 img{
+        width: 20px; 
+        height:20px;
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+    .row .map{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-lg-4 .footer-header-1{
+        display: flex;
+        justify-content: center;
+        margin:0 0 53px -10px;
+    }
+    footer .numbers{
+        padding-left: 17px;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+    }
+    footer .local-time{
+        margin-bottom: 30px;
+    }
+    
+    .statics p{
+        width: 195px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+    .statics .stcs-total{
+        margin-top: 5px;
+        height: 40px;
+        background-image: url("../logo/stcs-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        padding-top: 8px;
+    }
+    .stcs-total p{
+       text-align: center;
+       color: #89a1e4;
+       font-family: 'Times New Roman';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 24px;
+       line-height: 28px;
+    }
+    .statics td{
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        color: #FFFFFF;
+    }
+    .numbers .social-media{
+        margin-top: 8px;
+        height: 40px;
+        background-image: url("../logo/stcs-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media a{
+        margin-top: 15px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+    }
+    .social-media a:hover{
+        transform: scale(1.1);
+        transition: all .25s ease;
+    }
+    .footer-bottom{
+        height: 40px;
+        background-color: #075171;
+        padding-top: 12px;
+    }
+    .footer-bottom p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 992.1px) and (max-width: 1200px) {
+    .col-lg-2 .contact{
+        padding-top: 110px;
+    }
+    .col-lg-2 .info{
+        margin-left: 10px;
+        padding-top: 30px;
+    }
+    .statics p{
+        width: 150px;
+        margin-bottom: 3px;
+        text-align: center;
+    }
+    .statics .stcs-total{
+        margin-top: 5px;
+        height: 40px;
+        width: 150px;
+        background-image: url("../logo/stcs-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        padding-top: 8px;
+    }
+    .stcs-total p{
+       text-align: center;
+       color: #89a1e4;
+       font-family: 'Times New Roman';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 24px;
+       line-height: 28px;
+    }
+    .statics td{
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    .numbers .social-media{
+        margin-top: 8px;
+        height: 40px;
+        width: 150px;
+        background-image: url("../logo/stcs-bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .social-media a{
+        margin-top: 15px;
+        width: 40px;
+        height: 40px;
+        text-decoration: none;
+    }
+    .social-media a:hover{
+        transform: scale(1.1);
+        transition: all .25s ease;
+    }
+    .footer-bottom{
+        height: 40px;
+        background-color: #075171;
+        padding-top: 12px;
+    }
+    .footer-bottom p{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 768.1px) and (max-width: 992px) {
+    footer .row{
+        padding-top: 30px;
+        position: relative;
+    }
+    .e-func{
+        margin-left: 50px;
+    }
+    .col-lg-2 .contact{
+        padding-top: 0;
+        margin-left: 50px;
+    }
+    .col-lg-4 .footer-header-1{
+        display: flex;
+        justify-content: center;
+        text-align: left;
+        padding-left: -30px;
+    }
+    .edu-map{
+        position: absolute;
+        left: 45%;
+    }
+    footer .numbers{
+        padding-left: 17px;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        padding-right: 0;
+    }
+}
+@media screen and (min-width: 576.1px) and (max-width: 768px) {
+    .row h1{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .row a{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    footer .row{
+        position: relative;
+    }
+    .footer-header-1{
+        margin-right: 35px;
+    }
+    .col-lg-2 .contact{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .col-lg-2 .info{
+        position: absolute;
+        left: 55%;
+        top: 165px;
+    }
+    .col-lg-4 .edu-map{
+        position: absolute;
+        left: 38%;
+        top: 31.8%;
+    }
+    footer .numbers{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 50px;
+        position: static;
+        padding-top: 90px;
+    }
+    .statics p{
+        margin:0 auto 3px auto;
+        text-align: center;
+    }
+
+}
+@media screen and (min-width: 480.1px) and (max-width: 576px) {
+    .row h1{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .row a{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    footer .row{
+        position: relative;
+    }
+    .footer-header-1{
+        margin-right: 25px;
+    }
+    .col-lg-2 .contact{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .col-lg-2 .info{
+        position: absolute;
+        left: 55%;
+        top: 165px;
+    }
+    .col-lg-4 .edu-map{
+        position: absolute;
+        left: 36%;
+        top: 31.6%;
+    }
+    footer .numbers{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 50px;
+        position: static;
+        padding-top: 110px;
+    }
+    .statics p{
+        margin:0 auto 3px auto;
+        text-align: center;
+    }
+    .statics td{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .footer-bottom p{
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 13px;
+    }
+}
+@media screen and (min-width: 450.1px) and (max-width: 480px) {
+    footer .row{
+        position: relative;
+    }
+    .row h1{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .row a{
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .col-lg-2 .contact{
+        position: absolute;
+        left: 63%;
+        top: 6.4%;
+    }
+    .col-lg-4 .edu-map{
+        margin-left: -40px;
+    }
+    footer .numbers{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 50px;
+    }
+    .statics p{
+        margin:0 auto 3px auto;
+        text-align: center;
+    }
+    .statics td{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    .footer-bottom p{
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 13px;
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 375.1px) and (max-width: 450px) {
+    footer .row{
+        position: relative;
+    }
+    .row h1{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .row a{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .col-lg-2 .contact{
+        position: absolute;
+        top: 6%;
+        left:43%;
+    }
+    .col-lg-4 .edu-map{
+        margin-left: -40px;
+    }
+    footer .numbers{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 30px;
+    }
+    .statics p{
+        margin:0 auto 3px auto;
+        text-align: center;
+    }
+    .statics td{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .footer-bottom p{
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 12px;
+    }
+}
+@media screen and (min-width: 320.1px) and (max-width: 375px) {
+    footer .row{
+        position: relative;
+    }
+    .row h1{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .row a{
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 13px;
+    }
+    .col-lg-2 .contact{
+        position: absolute;
+        top: 5.2%;
+        left:43%;
+    }
+    .col-lg-4 .edu-map{
+        margin-left: -40px;
+    }
+    footer .numbers{
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        margin-top: 30px;
+    }
+    .statics p{
+        margin:0 auto 3px auto;
+        text-align: center;
+    }
+    .statics td{
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .footer-bottom p{
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 12px;
+    }
+}

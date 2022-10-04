@@ -1,0 +1,592 @@
+.instutions{
+    margin-top: 63px;
+    width: 100%;
+}
+.instutions .container{
+    margin: 80px auto;
+}
+.instutions .container .row .col{
+    width: 340px;
+    height: 180px;
+    margin-right: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.instutions .img-col{
+    width: 320px;
+    height: 160px;
+    margin: 23px 0 0 23px;
+    background: url("../img/ins-new.png");
+    padding-left: 40px;
+    padding-top: 35px;
+}
+.img-col span{
+    text-align:center; 
+    font-size: 22px;
+}
+.col .steam{
+    width: 168px;
+    height: 179px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+}
+.img-col .title{
+    width: 125px;
+    height: 69px;
+    margin-left: 115px;
+    display: flex;
+}
+.img-col .title a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #052E40;
+    margin-top: 20px;
+
+}
+.img-col .title a:hover{
+    text-decoration: underline;
+}
+.instutions button{
+    width: 120px;
+    background: #075171;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    position: absolute;
+    right: 130px;
+}
+.instutions .container button a{
+    text-decoration: none;
+}
+.instutions .container button a:hover{
+    text-decoration: underline;
+    color:deepskyblue
+}
+.instutions button i{
+    margin-top: 5px;
+}
+@media screen and (min-width: 1440px) {
+    .instutions{
+        margin-top: 63px;
+        width: 100%;
+    }
+    .instutions .container{
+        margin: 80px auto;
+    }
+    .instutions .container .row .col{
+        width: 340px;
+        height: 180px;
+        margin-right: auto;
+        margin-top: 20px;
+        position: relative;
+    
+    }
+    .instutions .img-col{
+        width: 320px;
+        height: 160px;
+        margin: 23px 0 0 23px;
+        background: url("../img/ins-new.png");
+        padding-left: 40px;
+        padding-top: 35px;
+    }
+    .img-col span{
+        text-align:center; 
+        font-size: 22px;
+    }
+    .col .steam{
+        width: 168px;
+        height: 179px;
+        margin-bottom: 20px;
+        position: absolute;
+        left: 0;
+    }
+    .img-col .title{
+        width: 125px;
+        height: 69px;
+        margin-left: 115px;
+        display: flex;
+    }
+    .img-col .title a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #052E40;
+        margin-top: 20px;
+    
+    }
+    .instutions button{
+        width: 120px;
+        background: #075171;
+        border: none;
+        border-radius: 3px;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-top: 40px;
+        position: absolute;
+        right: 300px;
+    }
+    .instutions button i{
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 1200.1px) and (max-width: 1440px) {
+    .instutions{
+        margin-top: 63px;
+        width: 100%;
+    }
+    .instutions .container{
+        margin: 80px auto;
+    }
+    .instutions .container .row .col{
+        width: 340px;
+        height: 180px;
+        position: relative;
+        margin-top: 20px;
+    }
+    .instutions .img-col{
+        width: 320px;
+        height: 160px;
+        margin: 23px 0 0 23px;
+        background: url("../img/ins-new.png");
+        padding-left: 40px;
+        padding-top: 35px;
+    }
+    .img-col span{
+        text-align:center; 
+        font-size: 22px;
+    }
+    .col .steam{
+        width: 168px;
+        height: 179px;
+        margin-bottom: 20px;
+        position: absolute;
+        left: 0;
+    }
+    .steam:hover{
+        transform: scale(1.1);
+        transition: all .45s ease;
+    }
+    .img-col .title{
+        width: 125px;
+        height: 69px;
+        margin-left: 115px;
+        display: flex;
+    }
+    .img-col .title a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #052E40;
+        margin-top: 20px;
+    
+    }
+    .instutions button{
+        width: 120px;
+        background: #075171;
+        border: none;
+        border-radius: 3px;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-top: 40px;
+        position: absolute;
+        right: 10%;
+    }
+    .instutions button i{
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 992.1px) and (max-width: 1200px) {
+    .instutions{
+        margin-top: 63px;
+        width: 100%;
+    }
+    .instutions .container{
+        margin: 80px auto;
+    }
+    .instutions .container .row{
+        margin: -20px auto 0 auto;
+        padding-left: 50px;
+    }
+    .instutions .container .row .col{
+        width: 340px;
+        height: 180px;
+        position: relative;
+        margin-top: 20px;
+    }
+    .instutions .img-col{
+        width: 320px;
+        height: 160px;
+        margin: 23px 0 0 23px;
+        background: url("../img/ins-new.png");
+        padding-left: 40px;
+        padding-top: 35px;
+    }
+    .img-col span{
+        text-align:center; 
+        font-size: 22px;
+    }
+    .col .steam{
+        width: 168px;
+        height: 179px;
+        margin-bottom: 20px;
+        position: absolute;
+        left: 0;
+    }
+    .img-col .title{
+        width: 125px;
+        height: 69px;
+        margin-left: 115px;
+        display: flex;
+    }
+    .img-col .title a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #052E40;
+        margin-top: 20px;
+    
+    }
+    .instutions button{
+        width: 120px;
+        background: #075171;
+        border: none;
+        border-radius: 3px;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-top: 40px;
+        position: static;
+        right: 50%;
+    }
+    .instutions button i{
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 778.1px) and (max-width: 992px) {
+    .instutions{
+        margin-top: 63px;
+        width: 100%;
+    }
+    .instutions .container{
+        margin: 80px auto;
+    }
+    .instutions .container .row{
+        margin: -20px auto 0 auto;
+    }
+    .instutions .container .row .col{
+        width: 340px;
+        height: 180px;
+        position: relative;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .instutions .img-col{
+        width: 320px;
+        height: 160px;
+        margin: 23px 0 0 23px;
+        background: url("../img/ins-new.png");
+        padding-left: 40px;
+        padding-top: 35px;
+    }
+    .img-col span{
+        text-align:center; 
+        font-size: 22px;
+    }
+    .col .steam{
+        width: 168px;
+        height: 179px;
+        margin-bottom: 20px;
+        position: absolute;
+        left: 10px;
+    }
+    .img-col .title{
+        width: 125px;
+        height: 69px;
+        margin-left: 115px;
+        display: flex;
+    }
+    .img-col .title a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #052E40;
+        margin-top: 20px;
+    
+    }
+    .instutions button{
+        width: 120px;
+        background: #075171;
+        border: none;
+        border-radius: 3px;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-top: 40px;
+        position: static;
+        left: 45%;
+    }
+    .instutions button i{
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 576.1px) and (max-width: 778px) {
+    .instutions{
+        margin-top: 63px;
+        width: 100%;
+    }
+    .instutions .container{
+        margin: 80px auto;
+    }
+    .instutions .container .row{
+        margin: -20px auto 0 auto;
+        padding-left: 50px;
+    }
+    .instutions .container .row .col{
+        width: 340px;
+        height: 180px;
+        position: relative;
+        margin-top: 20px;
+    }
+    .instutions .img-col{
+        width: 320px;
+        height: 160px;
+        margin: 23px 0 0 23px;
+        background: url("../img/ins-new.png");
+        padding-left: 40px;
+        padding-top: 35px;
+    }
+    .img-col span{
+        text-align:center; 
+        font-size: 22px;
+    }
+    col .steam{
+        width: 168px;
+        height: 179px;
+        margin-bottom: 20px;
+        position: absolute;
+        left: 10px;
+    }
+    .img-col .title{
+        width: 125px;
+        height: 69px;
+        margin-left: 115px;
+        display: flex;
+    }
+    .img-col .title a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #052E40;
+        margin-top: 20px;
+    
+    }
+    .instutions button{
+        width: 120px;
+        background: #075171;
+        border: none;
+        border-radius: 3px;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-top: 40px;
+        position: absolute;
+        left: 50%;
+    }
+    .instutions button i{
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 480.1px) and (max-width: 576px) {
+    .instutions{
+        margin-top: 63px;
+        width: 100%;
+    }
+    .instutions .container{
+        margin: 80px auto;
+    }
+    .instutions .container .row{
+        margin: -60px auto 0 auto;
+    }
+    .instutions .container .row .col{
+        width: 340px;
+        height: 180px;
+        position: relative;
+        margin-top: 20px;
+    }
+    .instutions .img-col{
+        width: 320px;
+        height: 160px;
+        margin: 23px auto;
+        background: url("../img/ins-new.png");
+        padding-left: 40px;
+        padding-top: 35px;
+    }
+    .img-col span{
+        text-align:center; 
+        font-size: 22px;
+    }
+    .col .steam{
+        width: 168px;
+        height: 179px;
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+
+    .img-col .title{
+        width: 125px;
+        height: 69px;
+        margin-left: 115px;
+        display: flex;
+    }
+    .img-col .title a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #052E40;
+        margin-top: 20px;
+    
+    }
+    .instutions button{
+        width: 120px;
+        background: #075171;
+        border: none;
+        border-radius: 3px;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-top: 40px;
+        position: absolute;
+        left: 35%;
+    }
+    .instutions button i{
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 320.1px) and (max-width: 480px) {
+    .instutions{
+        margin-top: 63px;
+        width: 100%;
+    }
+    .instutions .container{
+        margin: 30px auto;
+    }
+    .instutions .container .row{
+        margin:-60px auto 0 auto;
+    }
+    .instutions .container .row .col{
+        width: 300px;
+        height: 140px;
+        position: relative;
+        margin-top: 20px;
+    }
+    .instutions .img-col{
+        width: 280px;
+        height: 120px;
+        margin: 23px auto;
+        background: url("../img/ins-new.png");
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+    .img-col span{
+        text-align:center; 
+        font-size: 22px;
+    }
+    .col .steam{
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        right: 38%;
+    }
+    .img-col .title{
+        width: 125px;
+        height: 69px;
+        margin-left: 70px;
+        display: flex;
+    }
+    .img-col .title a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-style: italic;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        color: #052E40;
+    
+    }
+    .instutions button{
+        width: 120px;
+        background: #075171;
+        border: none;
+        border-radius: 3px;
+        font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        margin-top: 40px;
+        position: absolute;
+        left: 33%;
+    }
+    .instutions button i{
+        margin-top: 5px;
+    }
+}
