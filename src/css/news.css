@@ -21,7 +21,7 @@
     text-decoration: none;
 }
 .news-title h1 {
-    font-family: 'Times New Roman';
+    font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -95,7 +95,7 @@
 
 .news-about h2 {
     margin-top: 5px;
-    font-family: 'Inter';
+    font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 10px;
@@ -104,7 +104,7 @@
 }
 
 .news-about p {
-    font-family: 'Inter';
+    font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 300;
     font-size: 10px;
@@ -134,7 +134,7 @@
 
 .news-about a {
     text-decoration: none;
-    font-family: 'Times New Roman';
+    font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 11px;
@@ -167,7 +167,7 @@
         text-decoration: none;
     }
     .news-title h1 {
-        font-family: 'Times New Roman';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -227,7 +227,7 @@
     .element .time-month {
         margin-top: 20px;
         margin-left: 8px;
-        font-family: 'Inter';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -241,7 +241,7 @@
     
     .news-about h2 {
         margin-top: 5px;
-        font-family: 'Inter';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 10px;
@@ -250,7 +250,7 @@
     }
     
     .news-about p {
-        font-family: 'Inter';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 300;
         font-size: 10px;
@@ -280,7 +280,7 @@
     
     .news-about a {
         text-decoration: none;
-        font-family: 'Times New Roman';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 11px;
@@ -307,7 +307,7 @@
     }
     
     .news-title h1 {
-        font-family: 'Times New Roman';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -367,7 +367,7 @@
     .element .time-month {
         margin-top: 20px;
         margin-left: 8px;
-        font-family: 'Inter';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -381,7 +381,7 @@
     
     .news-about h2 {
         margin-top: 5px;
-        font-family: 'Inter';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 10px;
@@ -390,7 +390,7 @@
     }
     
     .news-about p {
-        font-family: 'Inter';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 300;
         font-size: 10px;
@@ -420,7 +420,7 @@
     
     .news-about a {
         text-decoration: none;
-        font-family: 'Times New Roman';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 11px;
@@ -452,7 +452,6 @@
     }
     
     .news-title h1 {
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -512,7 +511,6 @@
     .element .time-month {
         margin-top: 20px;
         margin-left: 8px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -526,7 +524,6 @@
     
     .news-about h2 {
         margin-top: 5px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 10px;
@@ -535,7 +532,6 @@
     }
     
     .news-about p {
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 300;
         font-size: 10px;
@@ -566,7 +562,6 @@
     
     .news-about a {
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 11px;
@@ -599,7 +594,6 @@
     }
     
     .news-title h1 {
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 16px;
@@ -659,7 +653,6 @@
     .element .time-month {
         margin-top: 20px;
         margin-left: 9px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -673,7 +666,6 @@
     
     .news-about h2 {
         margin-top: 5px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 9px;
@@ -682,7 +674,6 @@
     }
     
     .news-about p {
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 300;
         font-size: 10px;
@@ -715,7 +706,6 @@
     
     .news-about a {
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 11px;
@@ -743,7 +733,6 @@
     }
     
     .news-title h1 {
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 650;
         font-size: 14px;
@@ -803,7 +792,6 @@
     .element .time-month {
         margin-top: 20px;
         margin-left: 9px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -817,7 +805,6 @@
     
     .news-about h2 {
         margin-top: 5px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 9px;
@@ -859,7 +846,6 @@
     
     .news-about a {
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 11px;
@@ -886,7 +872,6 @@
     }
     
     .news-title h1 {
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 600;
         font-size: 12px;
@@ -940,7 +925,6 @@
     .element .time-month {
         margin-top: 20px;
         margin-left: 9px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -954,7 +938,6 @@
     
     .news-about h2 {
         margin-top: 5px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 9px;
@@ -963,7 +946,6 @@
     }
     
     .news-about p {
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 300;
         font-size: 10px;
@@ -1023,7 +1005,6 @@
     }
     
     .news-title h1 {
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 600;
         font-size: 12px;
@@ -1077,7 +1058,6 @@
     .element .time-month {
         margin-top: 20px;
         margin-left: 9px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -1091,7 +1071,6 @@
     
     .news-about h2 {
         margin-top: 5px;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 600;
         font-size: 9px;
@@ -1100,7 +1079,6 @@
     }
     
     .news-about p {
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 300;
         font-size: 10px;
@@ -1133,7 +1111,6 @@
     
     .news-about a {
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 11px;

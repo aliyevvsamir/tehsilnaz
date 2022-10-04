@@ -16,7 +16,7 @@
 }
 .pion-header a{
     text-decoration: none;
-    font-family: 'Times New Roman';
+    font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 28px;
@@ -25,7 +25,6 @@
     margin-top: 20px;
 }
 .pion-header a:hover, .outcomes a:hover{
-    text-decoration: underline;
     color: rgb(79, 79, 212);
     transition: 0.2s;
 }
@@ -53,13 +52,14 @@
 .outcomes img{
     width: 30px;
     height:30px;
+    margin-top: -5px;
 }
 .outcomes{
     padding-left: 10px;
 }
 .outcomes a{
     text-decoration: none;
-    font-family: 'Times New Roman';
+    font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -93,7 +93,7 @@
     }
     .pion-header a{
         text-decoration: none;
-        font-family: 'Times New Roman';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 28px;
@@ -162,7 +162,6 @@
     }
     .pion-header a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 28px;
@@ -196,7 +195,6 @@
     }
     .outcomes a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
@@ -230,7 +228,6 @@
     }
     .pion-header a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 27px;
@@ -267,7 +264,6 @@
     }
     .outcomes a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 32px;
@@ -301,7 +297,6 @@
     }
     .pion-header a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 680;
         font-size: 25px;
@@ -338,7 +333,6 @@
     }
     .outcomes a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 600;
         font-size: 30px;
@@ -372,7 +366,6 @@
     }
     .pion-header a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 500;
         font-size: 20px;
@@ -409,7 +402,6 @@
     }
     .outcomes a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 500;
         font-size: 28px;
@@ -443,7 +435,6 @@
     }
     .pion-header a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 380;
         font-size: 15px;
@@ -484,7 +475,6 @@
     }
     .outcomes a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 400;
         font-size: 26px;
@@ -518,7 +508,6 @@
     }
     .pion-header a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight:bolder;
         font-size: 13px;
@@ -559,7 +548,6 @@
     }
     .outcomes a{
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 370;
         font-size: 20px;

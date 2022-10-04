@@ -39,8 +39,8 @@
 }
 .img-col .title a{
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -50,18 +50,19 @@
 
 }
 .img-col .title a:hover{
-    text-decoration: underline;
+    transition: 0.2s all;
+    color: crimson;
 }
 .instutions button{
     width: 120px;
     background: #075171;
     border: none;
     border-radius: 3px;
-    font-family: 'Times New Roman';
+    font-family:Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 14px;
+    line-height: 20px;
     color: #FFFFFF;
     margin-top: 40px;
     position: absolute;
@@ -71,8 +72,8 @@
     text-decoration: none;
 }
 .instutions .container button a:hover{
-    text-decoration: underline;
-    color:deepskyblue
+    transition: 0.3s all;
+    color:rgb(229, 255, 0)
 }
 .instutions button i{
     margin-top: 5px;
@@ -139,7 +140,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 14px;
+        line-height: 20px;
         color: #FFFFFF;
         margin-top: 40px;
         position: absolute;
@@ -194,8 +195,8 @@
     }
     .img-col .title a{
         text-decoration: none;
-        font-family: 'Roboto';
-        font-style: italic;
+        font-family:Arial, Helvetica, sans-serif;
+        font-style: normal;
         font-weight: 700;
         font-size: 20px;
         line-height: 23px;
@@ -209,11 +210,11 @@
         background: #075171;
         border: none;
         border-radius: 3px;
-        font-family: 'Times New Roman';
+        font-family:Arial, Helvetica, sans-serif;
         font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 14px;
+        line-height: 20px;
         color: #FFFFFF;
         margin-top: 40px;
         position: absolute;
@@ -268,8 +269,6 @@
     }
     .img-col .title a{
         text-decoration: none;
-        font-family: 'Roboto';
-        font-style: italic;
         font-weight: 700;
         font-size: 20px;
         line-height: 23px;
@@ -283,11 +282,9 @@
         background: #075171;
         border: none;
         border-radius: 3px;
-        font-family: 'Times New Roman';
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 14px;
+        line-height: 20px;
         color: #FFFFFF;
         margin-top: 40px;
         position: static;
@@ -342,8 +339,6 @@
     }
     .img-col .title a{
         text-decoration: none;
-        font-family: 'Roboto';
-        font-style: italic;
         font-weight: 700;
         font-size: 20px;
         line-height: 23px;
@@ -357,11 +352,9 @@
         background: #075171;
         border: none;
         border-radius: 3px;
-        font-family: 'Times New Roman';
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 14px;
+        line-height: 20px;
         color: #FFFFFF;
         margin-top: 40px;
         position: static;
@@ -416,8 +409,6 @@
     }
     .img-col .title a{
         text-decoration: none;
-        font-family: 'Roboto';
-        font-style: italic;
         font-weight: 700;
         font-size: 20px;
         line-height: 23px;
@@ -431,11 +422,9 @@
         background: #075171;
         border: none;
         border-radius: 3px;
-        font-family: 'Times New Roman';
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 14px;
+        line-height: 20px;
         color: #FFFFFF;
         margin-top: 40px;
         position: absolute;
@@ -490,8 +479,6 @@
     }
     .img-col .title a{
         text-decoration: none;
-        font-family: 'Roboto';
-        font-style: italic;
         font-weight: 700;
         font-size: 20px;
         line-height: 23px;
@@ -505,11 +492,9 @@
         background: #075171;
         border: none;
         border-radius: 3px;
-        font-family: 'Times New Roman';
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 14px;
+        line-height: 20px;
         color: #FFFFFF;
         margin-top: 40px;
         position: absolute;
@@ -562,8 +547,6 @@
     }
     .img-col .title a{
         text-decoration: none;
-        font-family: 'Roboto';
-        font-style: italic;
         font-weight: 600;
         font-size: 18px;
         line-height: 21px;
@@ -576,11 +559,9 @@
         background: #075171;
         border: none;
         border-radius: 3px;
-        font-family: 'Times New Roman';
-        font-style: normal;
         font-weight: 700;
         font-size: 14px;
-        line-height: 14px;
+        line-height: 20px;
         color: #FFFFFF;
         margin-top: 40px;
         position: absolute;

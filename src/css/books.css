@@ -1,9 +1,11 @@
-.books-library{
+.books-library {
     width: 100%;
     display: flex;
     margin-top: 150px;
 }
-.books, .library{
+
+.books,
+.library {
     width: 100%;
     height: 84px;
     background: rgba(7, 81, 113, 0.7);
@@ -12,10 +14,12 @@
     justify-content: center;
 
 }
-.books a, .library a{
+
+.books a,
+.library a {
     text-decoration: none;
 
-    font-family: 'Times New Roman';
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
@@ -23,72 +27,83 @@
     color: #FFFFFF;
     margin-left: 14px;
 }
-.books-library a:hover{
-    color:rgb(12, 226, 23)
+
+.books-library a:hover {
+    color: rgb(12, 226, 23)
 }
-.books-library .img{
+
+.books-library .img {
     margin-left: -8px;
 }
 
-.library{
+.library {
     margin-left: -8px;
 }
+
 @media screen and (min-width: 1440px) {
-    .books-library{
+    .books-library {
         width: 100%;
         display: flex;
         margin-top: 150px;
     }
-    .books, .library{
+
+    .books,
+    .library {
         width: 100%;
         height: 84px;
         background: rgba(7, 81, 113, 0.7);
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
     }
-    .books a, .library a{
+
+    .books a,
+    .library a {
         text-decoration: none;
-    
-        font-family: 'Times New Roman';
-        font-style: normal;
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 700;
         font-size: 24px;
         line-height: 28px;
         color: #FFFFFF;
         margin-left: 14px;
     }
-    .books-library a:hover{
+
+    .books-library a:hover {
         opacity: .4;
         transition: 0.5s;
     }
-    .books-library .img{
+
+    .books-library .img {
         margin-left: -8px;
     }
-    .library{
+
+    .library {
         margin-left: -8px;
     }
 }
+
 @media screen and (min-width: 1200.1px) and (max-width: 1440px) {
-    .books-library{
+    .books-library {
         width: 100%;
         display: flex;
         margin-top: 150px;
     }
-    .books, .library{
+
+    .books,
+    .library {
         width: 100%;
         height: 84px;
         background: rgba(7, 81, 113, 0.7);
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
     }
-    .books a, .library a{
+
+    .books a,
+    .library a {
         text-decoration: none;
-    
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
@@ -96,36 +111,42 @@
         color: #FFFFFF;
         margin-left: 14px;
     }
-    .books-library a:hover{
+
+    .books-library a:hover {
         opacity: .4;
         transition: 0.5s;
     }
-    .books-library .img{
+
+    .books-library .img {
         margin-left: -8px;
     }
-    .library{
+
+    .library {
         margin-left: -8px;
     }
 }
+
 @media screen and (min-width: 992.1px) and (max-width: 1200.1px) {
-    .books-library{
+    .books-library {
         width: 100%;
         display: flex;
         margin-top: 100px;
     }
-    .books, .library{
+
+    .books,
+    .library {
         width: 100%;
         height: 84px;
         background: rgba(7, 81, 113, 0.7);
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
     }
-    .books a, .library a{
+
+    .books a,
+    .library a {
         text-decoration: none;
-    
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
@@ -133,66 +154,80 @@
         color: #FFFFFF;
         margin-left: 14px;
     }
-    .books-library a:hover{
+
+    .books-library a:hover {
         opacity: .4;
         transition: 0.5s;
     }
-    .books-library .img{
+
+    .books-library .img {
         margin-left: -8px;
     }
-    .library{
+
+    .library {
         margin-left: -8px;
     }
 }
+
 @media screen and (min-width: 778.1px) and (max-width: 992px) {
-    .books-library{
+    .books-library {
         width: 100%;
         display: flex;
         margin-top: 100px;
     }
-    .books, .library{
+
+    .books,
+    .library {
         width: 100%;
         height: 78px;
         background: rgba(7, 81, 113, 0.7);
         display: flex;
         align-items: center;
         justify-content: center;
-    
+
     }
-    .books a, .library a{
+
+    .books a,
+    .library a {
         text-decoration: none;
-        font-family: 'Times New Roman';
-        font-style: normal;
         font-weight: 650;
         font-size: 20px;
         line-height: 24px;
         color: #FFFFFF;
         margin-left: 14px;
     }
-    .books{
+
+    .books {
         padding-left: 8px;
     }
-    .books-library a:hover{
+
+    .books-library a:hover {
         opacity: .4;
         transition: 0.5s;
     }
-    .books-library .img{
+
+    .books-library .img {
         margin-left: -8px;
     }
-    .books-library .img img{
+
+    .books-library .img img {
         width: 220px;
     }
-    .library{
+
+    .library {
         margin-left: -8px;
     }
 }
+
 @media screen and (min-width: 576.1px) and (max-width: 778px) {
-    .books-library{
+    .books-library {
         width: 100%;
         display: flex;
         margin-top: 80px;
     }
-    .books, .library{
+
+    .books,
+    .library {
         width: 100%;
         height: 71px;
         background: rgba(7, 81, 113, 0.7);
@@ -201,39 +236,46 @@
         justify-content: center;
         padding-left: 8px;
 
-    
+
     }
-    .books a, .library a{
+
+    .books a,
+    .library a {
         text-decoration: none;
-        font-family: 'Times New Roman';
-        font-style: normal;
         font-weight: 600;
         font-size: 18px;
         line-height: 22px;
         color: #FFFFFF;
         margin-left: 14px;
     }
-    .books-library a:hover{
+
+    .books-library a:hover {
         opacity: .4;
         transition: 0.5s;
     }
-    .books-library .img{
+
+    .books-library .img {
         margin-left: -8px;
     }
-    .books-library .img img{
+
+    .books-library .img img {
         width: 200px;
     }
-    .library{
+
+    .library {
         margin-left: -8px;
     }
 }
+
 @media screen and (min-width: 480.1px) and (max-width: 576px) {
-    .books-library{
+    .books-library {
         width: 100%;
         display: flex;
         margin-top: 70px;
     }
-    .books, .library{
+
+    .books,
+    .library {
         width: 100%;
         height: 53px;
         background: rgba(7, 81, 113, 0.7);
@@ -242,39 +284,46 @@
         justify-content: center;
         padding-left: 8px;
 
-    
+
     }
-    .books a, .library a{
+
+    .books a,
+    .library a {
         text-decoration: none;
-        font-family: 'Times New Roman';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 18px;
         color: #FFFFFF;
         margin-left: 14px;
     }
-    .books-library a:hover{
+
+    .books-library a:hover {
         opacity: .4;
         transition: 0.5s;
     }
-    .books-library .img{
+
+    .books-library .img {
         margin-left: -8px;
     }
-    .books-library .img img{
+
+    .books-library .img img {
         width: 150px;
     }
-    .library{
+
+    .library {
         margin-left: -8px;
     }
 }
+
 @media screen and (min-width: 480.1px) and (max-width: 576px) {
-    .books-library{
+    .books-library {
         width: 100%;
         display: flex;
         margin-top: 60px;
     }
-    .books, .library{
+
+    .books,
+    .library {
         width: 100%;
         height: 42px;
         background: rgba(7, 81, 113, 0.7);
@@ -283,42 +332,49 @@
         justify-content: center;
         padding-left: 6px;
 
-    
+
     }
-    .books a, .library a{
+
+    .books a,
+    .library a {
         text-decoration: none;
-        font-family: 'Times New Roman';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 18px;
         color: #FFFFFF;
         margin-left: 14px;
     }
-    .books-library a:hover{
+
+    .books-library a:hover {
         opacity: .4;
         transition: 0.5s;
     }
-    .books-library .img{
+
+    .books-library .img {
         margin-left: -8px;
         padding-bottom: 10px;
     }
-    .books-library .img img{
+
+    .books-library .img img {
         width: 120px;
         z-index: 999;
 
     }
-    .library{
+
+    .library {
         margin-left: -8px;
     }
 }
+
 @media screen and (min-width: 320.1px) and (max-width: 480px) {
-    .books-library{
+    .books-library {
         width: 100%;
         display: flex;
         margin-top: 50px;
     }
-    .books, .library{
+
+    .books,
+    .library {
         width: 100%;
         height: 36px;
         background: rgba(7, 81, 113, 0.7);
@@ -327,9 +383,10 @@
         justify-content: center;
         padding-left: 7px;
     }
-    .books a, .library a{
+
+    .books a,
+    .library a {
         text-decoration: none;
-        font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 300;
         font-size: 10px;
@@ -337,20 +394,24 @@
         color: #FFFFFF;
         margin-left: 14px;
     }
-    .books-library a:hover{
+
+    .books-library a:hover {
         opacity: .4;
         transition: 0.5s;
     }
-    .books-library .img{
+
+    .books-library .img {
         margin-left: -8px;
         padding-bottom: 10px;
     }
-    .books-library .img img{
+
+    .books-library .img img {
         width: 100px;
         z-index: 999;
 
     }
-    .library{
+
+    .library {
         margin-left: -8px;
     }
 }
